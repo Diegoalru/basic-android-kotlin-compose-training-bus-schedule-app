@@ -17,7 +17,9 @@
 buildscript {
     extra.apply {
         set("nav_version", "2.5.3")
+        set("room_version", "2.5.1")
     }
+
 }
 plugins {
     id("com.android.application") version "8.1.1" apply false
